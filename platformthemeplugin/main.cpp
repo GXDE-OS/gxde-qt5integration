@@ -39,7 +39,8 @@ public:
 QPlatformTheme *QDeepinThemePlugin::create(const QString &key, const QStringList &params)
 {
     Q_UNUSED(params);
-    if (!key.compare(QLatin1String(QDeepinTheme::name), Qt::CaseInsensitive))
+    const QStringList &keys = {QLatin1String(QDeepinTheme::name), QLatin1String("DDE")};
+    if (keys.contains(key, Qt::CaseInsensitive))
         return new QDeepinTheme;
 
     return 0;

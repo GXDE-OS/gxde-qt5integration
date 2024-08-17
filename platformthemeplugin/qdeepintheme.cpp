@@ -702,6 +702,9 @@ QVariant QDeepinTheme::themeHint(QPlatformTheme::ThemeHint hint) const
 {
     switch (hint) {
     case QPlatformTheme::StyleNames: {
+        return QStringList({"chameleon", "fusion"});
+    }
+    case QPlatformTheme::StyleNames: {
         if (settings()->isSetStyleNames() && !settings()->styleNames().isEmpty())
             return settings()->styleNames();
 

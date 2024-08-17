@@ -34,6 +34,7 @@ QStyle *DStylePlugin::create(const QString &key)
     } else if (key == "dsemilight") {
         return new dstyle::Style(dstyle::StyleSemiLight);
     }
+
     return nullptr;
 }
 

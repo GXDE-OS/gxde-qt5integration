@@ -41,3 +41,8 @@ Makefile*
 CMakeLists.txt.user
 
 platformthemeplugin/NUL
+
+.qmake.cache
+.qmake.stash
+config.log
+config.tests
