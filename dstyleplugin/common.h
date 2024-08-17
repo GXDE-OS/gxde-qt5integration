@@ -19,6 +19,7 @@
 #define COMMON_H
 
 #include <QtGlobal>
+#include <QPainterPath>
 
 namespace dstyle {
 

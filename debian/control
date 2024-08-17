@@ -4,11 +4,10 @@ Priority: optional
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Build-Depends:
  debhelper (>=9),
- qt5-default,
  qtbase5-dev,
  qtbase5-private-dev,
  libqt5xdg-dev,
- libdtkwidget-dev,
+ libdtkwidget2-dev,
  pkg-config,
  libqt5x11extras5-dev,
  libfontconfig1-dev,
