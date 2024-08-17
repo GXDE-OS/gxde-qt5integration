@@ -1,4 +1,4 @@
-TARGET  = dsvg
+TARGET  = dsvg-gxde
 TEMPLATE = lib
 CONFIG += plugin
 

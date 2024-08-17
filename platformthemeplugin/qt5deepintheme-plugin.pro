@@ -8,7 +8,7 @@ greaterThan(QT_MAJOR_VERSION, 4) {
   else: QT += platformsupport-private
 }
 
-TARGET = qdeepin
+TARGET = qdeepin-gxde
 TEMPLATE = lib
 CONFIG += plugin link_pkgconfig c++11
 

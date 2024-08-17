@@ -1,7 +1,7 @@
-Source: qt5integration
+Source: gxde-qt5integration
 Section: devel
 Priority: optional
-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Maintainer: gfdgd xi <3025613752@qq.com>
 Build-Depends:
  debhelper (>=9),
  qtbase5-dev,
@@ -20,10 +20,10 @@ Build-Depends:
  libxrender-dev
 Standards-Version: 3.9.8
 
-Package: dde-qt5integration
+Package: gxde-qt5integration
 Architecture: any
 Provides: libqt5deepintheme-plugin
 Conflicts: libqt5deepintheme-plugin
 Depends: ${shlibs:Depends}, ${misc:Depends}, dde-qt5xcb-plugin
-Description: Qt platform theme integration plugins for DDE
- Multiple Qt plugins to provide better Qt5 integration for DDE is included.
+Description: Qt platform theme integration plugins for GXDE
+ Multiple Qt plugins to provide better Qt5 integration for GXDE is included.

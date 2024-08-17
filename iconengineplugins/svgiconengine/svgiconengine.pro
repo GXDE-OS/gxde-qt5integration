@@ -1,4 +1,4 @@
-TARGET  = dsvgicon
+TARGET  = dsvgicon-gxde
 TEMPLATE = lib
 CONFIG += plugin
 
