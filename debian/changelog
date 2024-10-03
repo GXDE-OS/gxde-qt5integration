@@ -1,9 +1,8 @@
-gxde-qt5integration (0.3.11) UNRELEASED; urgency=medium
+gxde-qt5integration (0.3.12) UNRELEASED; urgency=medium
 
-  * Non-maintainer upload.
-  * 
+  * 修复安装后 dtk5 崩溃的问题
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 17 Aug 2024 19:20:06 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Thu, 03 Oct 2024 17:19:27 +0800
 
 gxde-qt5integration (1.0.0) unstable; urgency=medium
 
