@@ -1,7 +1,7 @@
 # qt5integration
 
-qt5integration is the Qt platform theme integration plugins for Deepin Desktop Environment. It includes multiple Qt5 plugins
-to make make DDE more Qt5 Apps friendly.
+qt5integration is the Qt platform theme integration plugins for GXDE. It includes multiple Qt5 plugins
+to make make GXDE more Qt5 Apps friendly.
 
 ## Dependencies
 
@@ -25,44 +25,16 @@ to make make DDE more Qt5 Apps friendly.
   * Qt5-Core-Private
   * Qt5-Widgets-Private
 
-### Runtime dependencies
 
-* DDE File Manager (suggestion, to make Qt5 file dialogs more elegant)
+---
 
-## Installation
-
-### Build from source code
-
-1. Make sure you have installed all dependencies.
-
-2. Build:
+# You should know that the following code is NOT compiled to adapt DTK5 apps. These code are NOT in use
 ```
-$ cd qt5integration
-$ mkdir build
-$ cd build
-$ qmake ..
-$ make
+#    iconengineplugins/iconengines.pro
+#    imageformatplugins/imageformats.pro
+#    platformthemeplugin/qt5deepintheme-plugin.pro 
 ```
 
-3. Install:
-```
-$ sudo make install
-```
+https://gitee.com/GXDE-OS/gxde-qt5integration/commit/846c12d12e2ca8c8ee65ffe07a35ed75a415df5b
 
-## Usage
-
-To be done.
-
-## Getting help
-
-You may also find these channels useful if you encounter any other issues:
-
-* [Gitter](https://gitter.im/orgs/linuxdeepin/rooms)
-* [IRC Channel](https://webchat.freenode.net/?channels=deepin)
-* [Official Forum](https://bbs.deepin.org/)
-* [Wiki](http://wiki.deepin.org/)
-
-## License
-
-qt5integration is licensed under [GPLv3](LICENSE).
-
+On GXDE, these plugins in DTK2 is redirected to DTK5. See https://gitee.com/GXDE-OS/dde-qt5platform-plugins
