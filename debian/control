@@ -22,6 +22,6 @@ Standards-Version: 3.9.8
 
 Package: gxde-qt5integration
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, dde-qt5xcb-plugin, dde-qt5integration
+Depends: ${shlibs:Depends}, ${misc:Depends}, dde-qt5integration
 Description: Qt platform theme integration plugins for GXDE
  Multiple Qt plugins to provide better Qt5 integration for GXDE is included.

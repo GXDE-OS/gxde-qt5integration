@@ -1,6 +1,7 @@
-gxde-qt5integration (0.3.12) UNRELEASED; urgency=medium
+gxde-qt5integration (0.3.12-1) UNRELEASED; urgency=medium
 
   * 修复安装后 dtk5 崩溃的问题
+  * On dtk -lt 5.6, dde-qt5xcb-plugin doesnot exist
 
  -- gfdgd_xi <3025613752@qq.com>  Thu, 03 Oct 2024 17:19:27 +0800
 
