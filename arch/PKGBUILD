@@ -1,19 +1,20 @@
 # Maintainer: CharOfString <root@charofstring.cc>
-pkgname=gxde-qt5integration-git
+pkgname=gxde-qt5integration
 pkgver=0.3.12
 pkgrel=2
 pkgdesc='Qt5 style plugin for GXDE DTK2 applications'
 arch=('x86_64' 'aarch64')
 url="https://github.com/GXDE-OS/gxde-qt5integration"
 license=('GPL-3.0-or-later')
-depends=('dtkwidget2-git' 'qt5-base' 'libgcc' 'libstdc++' 'glibc')
+depends=('dtkwidget2' 'qt5-base' 'libgcc' 'libstdc++' 'glibc')
 # DTK5 的平台主题插件尚未进入 GXDE Arch 源，官方源的版本对应的 DTK 版本不同
 # The DTK5 platform theme is not in the GXDE Arch repo yet, and the one in
 # the official repos is built against a different DTK.
-optdepends=('deepin-qt5integration-git: DTK5 platform theme for GXDE')
-makedepends=('git' 'dtkwidget2-dev-git')
-provides=("gxde-qt5integration=$pkgver")
-conflicts=('gxde-qt5integration')
+optdepends=('gxde-deepin-qt5integration: DTK5 platform theme for GXDE')
+makedepends=('git' 'dtkwidget2-dev')
+provides=("gxde-qt5integration-git=$pkgver")
+conflicts=('gxde-qt5integration-git')
+replaces=('gxde-qt5integration-git')
 source=()
 sha512sums=()
 
